@@ -1,1 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 
+header {
+  background-color: #222;
+  color: white;
+  padding: 40px;
+}
+
+main {
+  padding: 50px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+}
